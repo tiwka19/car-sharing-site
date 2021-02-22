@@ -22,7 +22,7 @@ body {
 
 .header {
     background-color : #332208;
-   
+
 }
 
 .header__inner {
@@ -30,7 +30,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100px;
-   
+
 }
 
 .menu__list {
@@ -50,7 +50,7 @@ body {
     line-height: 21px;
     color : #fefefe;
     padding-bottom: 5px;
-    transition : all .3s ease;  
+    transition : all .3s ease;
     border-bottom : 1px solid transparent;
 }
 .menu__list-link:hover {
@@ -66,7 +66,11 @@ body {
 
 .top__heading {
     display: flex;
-    padding-top : 50px 0 30px;
+    padding : 50px 0 30px;
+}
+
+.top {
+  padding-bottom: 100px;
 }
 
 .top__content {
@@ -141,7 +145,7 @@ body {
 }
 .slick-active button {
     width: 16px;
-    height: 16px; 
+    height: 16px;
 }
 .top__slider-text{
     padding-right: 100px;
@@ -187,7 +191,7 @@ body {
 }
 .top__links {
     padding-right: 80px;
-   
+
 }
 
 .top__link + .top__link {
@@ -198,4 +202,102 @@ body {
     font-size: 16px;
     line-height: 19px;
     border-bottom: 1px solid #1B1818;;
+}
+
+.rent{
+  padding: 100px 0;
+}
+
+.rent__inner {
+  display: flex;
+  justify-content: space-between;
+
+}
+.rent__content {
+  width: 300px;
+}
+.rent__title{
+  font-size: 24px;
+  line-height: 29px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.rent__text {
+  line-height: 19px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.rent__text + .rent__text {
+  margin-bottom: 40px;
+}
+
+.rent__item {
+  border: 1px solid #332208;
+  width: 250px;
+  min-height: 350px;
+  padding: 0 30px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.rent__item-num{
+  font-size: 96px;
+  line-height: 115px;
+  font-weight: 500;
+  opacity: 0.05;
+  font-family: 'Fira Sans', sans-serif;
+}
+.rent__item-title{
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+  margin-bottom: auto;
+}
+
+.benefits__title {
+  padding : 100px 0;
+}
+.benefits__title {
+  font-weight: 500;
+  font-size: 24px;
+  font-family: 'Fira Sans', sans-serif;
+  line-height: 29px;
+  margin-bottom: 48px;
+}
+
+.benefits__items{
+  display: flex;
+  justify-content: space-between;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.benefits__list {
+    width: 300px;
+    list-style: none;
+}
+
+.benefits__list-item{
+  margin-bottom: 27px;
+  padding-right: 26px;
+  position: relative;
+  text-align: right;
+}
+
+.benefits__list-item:after {
+  content : "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: : 50%;
+  background-color: #000;
+  right : 0;
+
+}
+.benefits__content {
+
+  width: 300px;
 }
