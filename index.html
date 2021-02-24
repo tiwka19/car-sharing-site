@@ -7,13 +7,17 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto+Condensed&display=swap"
+    rel="stylesheet">
 
 
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/jquery.fancybox.css">
+ 
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+
 </head>
 
 <body>
@@ -24,6 +28,8 @@
           <img src="images/logo.svg" alt="" class="header__logo-img">
         </a>
         <nav class="menu">
+          <button class="menu__btn">
+          </button>
           <ul class="menu__list">
             <li class="menu__list-item"><a href="#" class="menu__list-link">О НАС</a></li>
             <li class="menu__list-item"><a href="#" class="menu__list-link">АВТОПАРК</a></li>
@@ -135,7 +141,8 @@
           <h3 class="rent__title">Условия аренды
             автомобиля</h3>
           <p class="rent__text">Мы ценим каждого клиента и предоставляем качественный сервис каршеринга в Киеве.</p>
-          <p class="rent__text"> Именно для того, что бы Вам было приятно и безопасно пользоваться нашим сервисом на постоянной основе, мы выделили несколько условий для того,чтобы взять машину в аренду</p>
+          <p class="rent__text"> Именно для того, что бы Вам было приятно и безопасно пользоваться нашим сервисом на
+            постоянной основе, мы выделили несколько условий для того,чтобы взять машину в аренду</p>
           <a href="#" class="application-btn">Скачать приложение</a>
         </div>
         <div class="rent__item">
@@ -201,19 +208,155 @@
         <img src="images/benefits-img.png" alt="" class="benefits__image">
         <div class="benefits__content">
           <p class="benefits__text">
-            Вы можете выбрать один из 300 наших автомобилей, насладиться сервисом, повысить уровень жизни, не покупая дорогой автомобиль, успевать везде и каждый день ездить на новом премиум автомобиле.
+            Вы можете выбрать один из 300 наших автомобилей, насладиться сервисом, повысить уровень жизни, не покупая
+            дорогой автомобиль, успевать везде и каждый день ездить на новом премиум автомобиле.
 
           </p>
           <p class="benefits__text">
             Посмотрите в идео презентацию нашего сервиса и выберите автомобиль уже сейчас!
           </p>
-          <a href="" class="video-popup">Посмотреть презентацию</a>
+          <a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-popup">Посмотреть презентацию</a>
         </div>
       </div>
     </div>
 
 
   </section>
+
+  <section class="reviews">
+    <div class="container">
+      <div class="reviews__title">
+        Отзывы
+      </div>
+
+      <div class="reviews__slider">
+        <div class="reviews__item">
+          <p class="reviews__item-name">
+            Михаил, 28 лет
+          </p>
+          <div class="reviews__item-text">
+            Очень рад, что Вы есть!
+            Пока еще бэху купить не могу, но покататься взять - это отличная возможность!
+            Такое ощущение, что у меня личный огромный автопарк элитных тачек)))
+
+          </div>
+        </div>
+        <div class="reviews__item">
+          <p class="reviews__item-name">
+            Инна, 35 лет
+          </p>
+          <div class="reviews__item-text">
+            Очень радует Ваш сервис. Встречаю ВИП клиентов всегда только на Ваших машинах.
+            Удобно, что расчет по минутам, это экономит бюджет компании.
+
+          </div>
+        </div>
+        <div class="reviews__item">
+          <p class="reviews__item-name">
+            Игорь, 25 лет
+          </p>
+          <div class="reviews__item-text">
+            Ребята, Вы ТОПЧИК!
+            Брал машину на свидание, покатал девушку, она в восторге, я доволен, все счастливы)
+
+          </div>
+        </div>
+        <div class="reviews__item">
+          <p class="reviews__item-name">
+            Марина, 30 лет
+
+          </p>
+          <div class="reviews__item-text">
+            Люблю Ваш сервис. Не люблю такси. В приложении быстро нахожу машину поблизости. Всегда чистая, свежая,
+            приятно садиться в нее. До работы или на шопинг еду с комфортом.
+          </div>
+        </div>
+        <div class="reviews__item">
+          <p class="reviews__item-name">
+            Инна, 35 лет
+
+
+          </p>
+          <div class="reviews__item-text">
+            Очень радует Ваш сервис. Встречаю ВИП клиентов всегда только на Ваших машинах.
+            Удобно, что расчет по минутам, это экономит бюджет компании.
+
+          </div>
+        </div>
+        <div class="reviews__item">
+          <p class="reviews__item-name">
+            Игорь, 25 лет
+          </p>
+          <div class="reviews__item-text">
+            Ребята, Вы ТОПЧИК!
+            Брал машину на свидание, покатал девушку, она в восторге, я доволен, все счастливы)
+
+          </div>
+        </div>
+        <div class="reviews__item">
+          <p class="reviews__item-name">
+            Марина, 30 лет
+
+          </p>
+          <div class="reviews__item-text">
+            Люблю Ваш сервис. Не люблю такси. В приложении быстро нахожу машину поблизости. Всегда чистая, свежая,
+            приятно садиться в нее. До работы или на шопинг еду с комфортом.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="feedback">
+    <div class="container">
+        <div class="feedback__inner">
+          <img src="images/feedback.png" alt="" class="feedback__img">
+          <form action="" class="feedback__form">
+            <h3 class="feedback__title">Остались вопросы?
+            </h3>
+            <p class="feedback__text">
+              Мы перезвоним Вам и проконсультируем по любому вопросу
+            </p>
+            <input type="text" class="feedback__input" placeholder="Имя">
+            <input type="text" class="feedback__input" placeholder="Телефон">
+            <button type="submit" class="feedback__btn">ОСТАВИТЬ ЗАЯВКУ</button>
+          </form>
+        </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <a href="#" class="application-btn">Скачать приложение</a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="#" class="menu__list-link">О НАС</a></li>
+            <li class="menu__list-item"><a href="#" class="menu__list-link">АВТОПАРК</a></li>
+            <li class="menu__list-item"><a href="#" class="menu__list-link">ОТЗЫВЫ</a></li>
+            <li class="menu__list-item"><a href="#" class="menu__list-link">УСЛОВИЯ</a></li>
+            <li class="menu__list-item"><a href="#" class="menu__list-link">КОНТАКТЫ</a></li>
+          </ul>
+        </nav>
+        <a href="tel:+380999999090" class="contact">+38 (099) 999 90 90</a>
+      </div>
+      <ul class="footer__social">
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link">
+            <img src="/images/instagram.svg" alt="" class="footer__social-link-img">
+          </a></li>
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link">
+            <img src="/images/facebook.svg" alt="" class="footer__social-link-img">
+          </a></li>
+        <li class="footer__social-item">
+          <a href="" class="footer__social-link">
+            <img src="/images/youtube.svg" alt="" class="footer__social-link-img">
+          </a></li>
+      </ul>
+    </div>
+  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/jquery.fancybox.min.js"></script>
